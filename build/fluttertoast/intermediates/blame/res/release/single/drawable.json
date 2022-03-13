@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\mehta\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\toast_bg.xml",
+        "source": "C:\\src\\flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.8\\android\\src\\main\\res\\drawable\\toast_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\mehta\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\corner.xml",
+        "source": "C:\\src\\flutter\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-8.0.8\\android\\src\\main\\res\\drawable\\corner.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\mehta\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\mehta\\Desktop\\FYP\\road_surface_analyzer\\build\\fluttertoast\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\mehta\\.gradle\\caches\\transforms-2\\files-2.1\\3aaf6e5219b7f981ec263df919098c6f\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    }
+]

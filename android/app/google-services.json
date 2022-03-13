@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763841584745",
+    "firebase_url": "https://sensordaten-d713c.firebaseio.com",
+    "project_id": "sensordaten-d713c",
+    "storage_bucket": "sensordaten-d713c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763841584745:android:dd98698ae0880ab5e18cf8",
+        "android_client_info": {
+          "package_name": "de.example.sensordatenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763841584745-26ak1vesv16pi5ef5b72l2a69n1skgsr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPzYrei2Hi9qGb4mz2cyQ-yw6wh3r4_eM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763841584745-26ak1vesv16pi5ef5b72l2a69n1skgsr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

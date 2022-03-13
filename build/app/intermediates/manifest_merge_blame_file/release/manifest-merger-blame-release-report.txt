@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="de.example.sensordatenapp"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:8:5-80
+17-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+18-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:9:5-79
+18-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:9:22-77
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19-->[:geolocator] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\geolocator\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+19-->[:geolocator] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\geolocator\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+20    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:5-79
+21-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:26:22-76
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:5-67
+22-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:27:22-64
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:10:5-34:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:11:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\35f29bb1a578f0319e9c3e21730b6b49\core-1.2.0\AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/launcher_icon"
+31-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:13:9-45
+32        android:label="Road Surface Analyzer" >
+32-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:12:9-46
+33        <activity
+33-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:14:9-25:20
+34            android:name="de.example.sensordatenapp.MainActivity"
+34-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:15:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:18:13-163
+36            android:hardwareAccelerated="true"
+36-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:19:13-47
+37            android:launchMode="singleTop"
+37-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:16:13-43
+38            android:theme="@style/LaunchTheme"
+38-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:17:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:20:13-55
+40            <intent-filter>
+40-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:21:13-24:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:22:17-69
+41-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:22:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:23:17-77
+43-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:23:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:28:9-30:33
+51            android:name="flutterEmbedding"
+51-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:29:13-44
+52            android:value="2" />
+52-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:30:13-30
+53        <meta-data
+53-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:31:9-33:71
+54            android:name="com.google.android.geo.API_KEY"
+54-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:32:13-58
+55            android:value="AIzaSyDPzYrei2Hi9qGb4mz2cyQ-yw6wh3r4_eM" />
+55-->C:\Users\mehta\Desktop\FYP\road_surface_analyzer\android\app\src\main\AndroidManifest.xml:33:13-68
+56
+57        <service
+57-->[:firebase_auth] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:firebase_auth] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+61            <meta-data
+61-->[:firebase_auth] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+62-->[:firebase_auth] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:firebase_auth] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[:firebase_storage] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+65-->[:firebase_storage] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_storage] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_core] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+68-->[:firebase_core] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_core] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+71                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+71-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\ba74bdf791640d896430b077d69d972e\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+74                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+74-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+76        </service>
+77
+78        <provider
+78-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+79            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+79-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+80            android:authorities="de.example.sensordatenapp.flutter.image_provider"
+80-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+81            android:exported="false"
+81-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+82            android:grantUriPermissions="true" >
+82-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+83            <meta-data
+83-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+85                android:resource="@xml/flutter_image_picker_file_paths" />
+85-->[:image_picker] C:\Users\mehta\Desktop\FYP\road_surface_analyzer\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+86        </provider> <!-- Needs to be explicitly declared on P+ -->
+87        <uses-library
+87-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+88            android:name="org.apache.http.legacy"
+88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+89            android:required="false" />
+89-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\6f4e6eb26f6c204062e462fe30c558b2\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+90
+91        <activity
+91-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+92            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+93            android:excludeFromRecents="true"
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+94            android:exported="true"
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+95            android:launchMode="singleTask"
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+96            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+98        <activity
+98-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+99            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+99-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+100            android:exported="false"
+100-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+101            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+101-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\c74e9d76b9181d3585ba58111e512b89\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+102
+103        <provider
+103-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+104            android:name="com.google.firebase.provider.FirebaseInitProvider"
+104-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+105            android:authorities="de.example.sensordatenapp.firebaseinitprovider"
+105-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:19.3.0] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\9cc2baeab5fa4e9977a8f23d1c85c60e\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+108
+109        <meta-data
+109-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\3e53a10f4e877b5241f1612fbc60fba6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+110            android:name="com.google.android.gms.version"
+110-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\3e53a10f4e877b5241f1612fbc60fba6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+111            android:value="@integer/google_play_services_version" />
+111-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\mehta\.gradle\caches\transforms-2\files-2.1\3e53a10f4e877b5241f1612fbc60fba6\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+112    </application>
+113
+114</manifest>
